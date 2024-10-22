@@ -10,8 +10,14 @@ def encode(password):
             encoded_password += str(new_digit)
     return encoded_password
 
-
-
+def decode(password):
+    """Decodes a password by shifting each digit down by 3."""
+    decoded_password = ''
+    for char in password:
+        if char.isdigit():
+            new_digit = (int(char) - 3) % 10
+            decoded_password += str(new_digit)
+    return decoded_password
 
 def main():
     while True:
