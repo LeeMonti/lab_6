@@ -1,3 +1,6 @@
+# decode and main function by Lisa Montuori
+
+
 def encode(password):
     """Encodes a password by shifting each digit up by 3."""
     encoded_password = ''
