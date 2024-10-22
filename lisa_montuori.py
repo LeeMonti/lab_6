@@ -1,4 +1,4 @@
-# decode and main function by Lisa Montuori
+# encode and main function by Lisa Montuori
 
 
 def encode(password):
